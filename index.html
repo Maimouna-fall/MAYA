@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h2>TO-DO LIST</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Ajouter une tâche">
+                <button onclick="addTask()">OK</button>
+            </div>
+            <ul id="list-container">
+
+            </ul>
+            <button id="clear-all" class="clear-all"> Tout suppimer</button>
+        </div>
+
+        <div class="corbeille">
+            <h3>Corbeille</h3>
+            <ul id="deleted-container">
+               
+
+            </ul>
+           <button id="clear-deleted" class="clear-deleted"> Vider la corbeille</button>
+        </div>
+    </div>
+
+    <script src="page.js"></script>
+</body>
+</html>
